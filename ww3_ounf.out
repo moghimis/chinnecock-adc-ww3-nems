@@ -1,0 +1,156 @@
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Comment character is '$'
+
+  Grid name : Inlet                         
+
+  Fields in file : 
+ --------------------------
+      Wind speed          
+      Wave height         
+      Peak frequency      
+      Peak direction      
+
+  Output time data : 
+ --------------------------------------------------
+      First time         : 2015/12/14 00:00:00 UTC
+      Interval           :            00:05:00    
+      Number of requests :    9999
+            Fields   : Wave height         
+                       Peak frequency      
+                       Mean wave dir. a1b1 
+                       Peak direction      
+                       Radiation stresses  
+      Wave height            
+      Peak frequency         
+      Mean wave dir. a1b1   *** NOT AVAILABLE ***
+      Peak direction         
+      Radiation stresses    *** NOT AVAILABLE ***
+      X range :       1   3070
+      Y range :       1      1
+
+  Requested output fields : 
+ --------------------------------------------------
+      Wave height            
+      Peak frequency         
+      Peak direction         
+
+
+  Generating files 
+ --------------------------------------------------
+      Files for 2015/12/14 00:00:00 UTC
+NEW NetCDF file was created ww3.Constant.20151214_hs.nc                       
+Writing new record hs   number      1 for 2015:12:14T00:00:00 in file ww3.Constant.20151214_hs.nc
+NEW NetCDF file was created ww3.Constant.20151214_fp.nc                       
+Writing new record fp   number      1 for 2015:12:14T00:00:00 in file ww3.Constant.20151214_fp.nc
+NEW NetCDF file was created ww3.Constant.20151214_dp.nc                       
+Writing new record dp   number      1 for 2015:12:14T00:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 01:00:00 UTC
+Writing new record hs   number      2 for 2015:12:14T01:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      2 for 2015:12:14T01:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      2 for 2015:12:14T01:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 02:00:00 UTC
+Writing new record hs   number      3 for 2015:12:14T02:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      3 for 2015:12:14T02:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      3 for 2015:12:14T02:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 03:00:00 UTC
+Writing new record hs   number      4 for 2015:12:14T03:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      4 for 2015:12:14T03:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      4 for 2015:12:14T03:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 04:00:00 UTC
+Writing new record hs   number      5 for 2015:12:14T04:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      5 for 2015:12:14T04:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      5 for 2015:12:14T04:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 05:00:00 UTC
+Writing new record hs   number      6 for 2015:12:14T05:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      6 for 2015:12:14T05:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      6 for 2015:12:14T05:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 06:00:00 UTC
+Writing new record hs   number      7 for 2015:12:14T06:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      7 for 2015:12:14T06:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      7 for 2015:12:14T06:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 07:00:00 UTC
+Writing new record hs   number      8 for 2015:12:14T07:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      8 for 2015:12:14T07:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      8 for 2015:12:14T07:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 08:00:00 UTC
+Writing new record hs   number      9 for 2015:12:14T08:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number      9 for 2015:12:14T08:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number      9 for 2015:12:14T08:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 09:00:00 UTC
+Writing new record hs   number     10 for 2015:12:14T09:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     10 for 2015:12:14T09:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     10 for 2015:12:14T09:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 10:00:00 UTC
+Writing new record hs   number     11 for 2015:12:14T10:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     11 for 2015:12:14T10:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     11 for 2015:12:14T10:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 11:00:00 UTC
+Writing new record hs   number     12 for 2015:12:14T11:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     12 for 2015:12:14T11:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     12 for 2015:12:14T11:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 12:00:00 UTC
+Writing new record hs   number     13 for 2015:12:14T12:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     13 for 2015:12:14T12:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     13 for 2015:12:14T12:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 13:00:00 UTC
+Writing new record hs   number     14 for 2015:12:14T13:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     14 for 2015:12:14T13:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     14 for 2015:12:14T13:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 14:00:00 UTC
+Writing new record hs   number     15 for 2015:12:14T14:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     15 for 2015:12:14T14:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     15 for 2015:12:14T14:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 15:00:00 UTC
+Writing new record hs   number     16 for 2015:12:14T15:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     16 for 2015:12:14T15:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     16 for 2015:12:14T15:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 16:00:00 UTC
+Writing new record hs   number     17 for 2015:12:14T16:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     17 for 2015:12:14T16:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     17 for 2015:12:14T16:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 17:00:00 UTC
+Writing new record hs   number     18 for 2015:12:14T17:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     18 for 2015:12:14T17:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     18 for 2015:12:14T17:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 18:00:00 UTC
+Writing new record hs   number     19 for 2015:12:14T18:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     19 for 2015:12:14T18:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     19 for 2015:12:14T18:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 19:00:00 UTC
+Writing new record hs   number     20 for 2015:12:14T19:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     20 for 2015:12:14T19:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     20 for 2015:12:14T19:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 20:00:00 UTC
+Writing new record hs   number     21 for 2015:12:14T20:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     21 for 2015:12:14T20:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     21 for 2015:12:14T20:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 21:00:00 UTC
+Writing new record hs   number     22 for 2015:12:14T21:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     22 for 2015:12:14T21:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     22 for 2015:12:14T21:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 22:00:00 UTC
+Writing new record hs   number     23 for 2015:12:14T22:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     23 for 2015:12:14T22:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     23 for 2015:12:14T22:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/14 23:00:00 UTC
+Writing new record hs   number     24 for 2015:12:14T23:00:00 in file ww3.Constant.20151214_hs.nc
+Writing new record fp   number     24 for 2015:12:14T23:00:00 in file ww3.Constant.20151214_fp.nc
+Writing new record dp   number     24 for 2015:12:14T23:00:00 in file ww3.Constant.20151214_dp.nc
+      Files for 2015/12/15 00:00:00 UTC
+NEW NetCDF file was created ww3.Constant.20151215_hs.nc                       
+Writing new record hs   number      1 for 2015:12:15T00:00:00 in file ww3.Constant.20151215_hs.nc
+NEW NetCDF file was created ww3.Constant.20151215_fp.nc                       
+Writing new record fp   number      1 for 2015:12:15T00:00:00 in file ww3.Constant.20151215_fp.nc
+NEW NetCDF file was created ww3.Constant.20151215_dp.nc                       
+Writing new record dp   number      1 for 2015:12:15T00:00:00 in file ww3.Constant.20151215_dp.nc
+
+      End of file reached 
+
+
+  End of program 
+ =========================================
+         WAVEWATCH III Field output 
+

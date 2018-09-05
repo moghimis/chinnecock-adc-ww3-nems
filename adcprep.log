@@ -1,0 +1,238 @@
+ INFO: Processing --np
+ INFO: Processing --partmesh
+ File                                                      fort.14
+ WAS FOUND!  Opening & Processing file
+
+ from alloc_main1: 
+  
+ memory currently allocated =       807120  bytes
+ memory high water mark     =      1532600  bytes
+  
+  
+ memory currently allocated =       809456  bytes
+ memory high water mark     =      1532600  bytes
+  
+ Global Grid file read successfully.
+ This model has            0  weir node pairs
+ maximum number duals for any weir node =            0
+ maximum co-nodes for any node =           16
+ edge count =         8849
+ 
+ Grid Partition Data
+ METIS 4.0 will require approximately      1029736  bytes
+ Total Edges Cut =         5634
+ writing mesh partition to file: partmesh.txt
+  
+ INFO: METIS has partitioned nodes
+ 
+ INFO: Finished pre-processing input files.
+  
+ memory currently allocated =       809456  bytes
+ memory high water mark     =      1532600  bytes
+  
+ INFO: Processing --np
+ INFO: Processing --prepall
+ File                                                      fort.14
+ WAS FOUND!  Opening & Processing file
+
+ File fort.15                                                     
+ WAS FOUND!  Opening & Processing file
+
+INFO: The time varying weir control namelist was found.
+ IHOT          567
+ nws          517
+  REFTIM  0.000000000000000E+000
+  WTIMINC   3600.00000000000     
+ NDAY,DRAMP    27.0000000000000     
+ NDAY,DRAMP    5.00000000000000     
+  CORI  1.000000000000000E-004
+ NTIF            5
+ NOUTE, TOUTSE.           -5
+ Elevation Station Locations contained in fort.15
+  NOUTV, TOUTSV.           0
+ Velocity Station Locations Contained in fort.15
+ NOUTM, TOUTSM..            0
+ MET Station Locations Contained in fort.15
+ NOUTGE, TOUTSGE..           -5
+ NOUTGW, TOUTSGW..           -5
+ NHARF            0
+   >>>>>>>>   -72.8683000000000     
+ NHSTAR =            5
+ *****************************************************
+ *   Based on input and information extracted from   *
+ *   the ADCIRC UNIT 14 and 15 (grid and horiz run   *
+ *   info) files the following paramter values will  *
+ *   be set:                                         *
+ *                                                   *
+ *       MNPROC =    11                             *
+ *       MNE =     5780      MNP =     3070          *
+ *       MNEI =       9                               *
+ *       MNOPE =      1      MNETA =     75          *
+ *       MNBOU =      1      MNVEL =    286          *
+ *       MNTIF =      5      MNBFR =      5          *
+ *       MNSTAE =     4      MNSTAV =     1          *
+ *       MNSTAC =     1      MNSTAM =     1          *
+ *       MNWP =       1                               *
+ *       MNWLAT =     1      MNWLON =     1          *
+ *       MNFFR =      1                              *
+ *                                                   *
+ *   Also, ABS(NWS)>=100 wave stress forcing is used,*
+ *   means and variance calculation will NOT be made,*
+ *   the GWCE matrix will be left in consistent form *
+ *   the model will be set up for a 2DDI run,        *
+ *   and an iterative solver will be used            *
+ *****************************************************
+
+ from alloc_main1: 
+  
+ memory currently allocated =       815848  bytes
+ memory high water mark     =      1550056  bytes
+  
+  
+ memory currently allocated =       818184  bytes
+ memory high water mark     =      1550056  bytes
+  
+ Global Grid file read successfully.
+ INFO: Opening file partmesh.txt
+ INFO: Closed partmesh.txt file.
+ INFO: Start reading in fort.15.
+  NWS         517
+ NRAMP            1
+ TAU0MSG 
+  0.005                                    ! TAU0 - WEIGHTING FACTOR IN GWCE    
+  
+ DT    2.00000000000000     
+ STATIM   0.000000000000000E+000
+ REFTIM   0.000000000000000E+000
+ WSMSG1 
+ 3600  3600   ! WTIMINC - meteorological data time increment, RSTIMINC wave forc
+ i
+  RNDAY   27.0000000000000     
+ DRAMP    5.00000000000000     
+  CORI  1.000000000000000E-004
+  NTIF           5
+ NOUTE           -5
+ Elevation Station Locations contained in fort.15
+Elevation recording station       1 does not lie in the grid.
+ Please check the coordinates.
+ The program will estimate nearest element.
+ WARNING. Distance to nearest element is    8343.45593360901     
+  
+Elevation recording station       2 does not lie in the grid.
+ Please check the coordinates.
+ The program will estimate nearest element.
+ WARNING. Distance to nearest element is    153.001405989846     
+  
+Elevation recording station       3 does not lie in the grid.
+ Please check the coordinates.
+ The program will estimate nearest element.
+ WARNING. Distance to nearest element is    15538.9366779949     
+  
+Elevation recording station       4 does not lie in the grid.
+ Please check the coordinates.
+ The program will estimate nearest element.
+ WARNING. Distance to nearest element is    1488.99177724159     
+  
+  NOUTV           0
+  NSTAV           0
+ Velocity Station Locations Contained in fort.15
+  NOUTM           0
+  NSTAM           0
+ MET Station Locations Contained in fort.15
+ NOUTGE           -5
+  NOUTGW          -5
+ NHARFR            0
+  
+ memory currently allocated =       818184  bytes
+ memory high water mark     =      1550056  bytes
+  
+ INFO: Fulldomain fort.15 file read successfully.
+ INFO: Initializing the netCDF output files.
+ For Radiation Stress forcing:> initNetCDFOutputFile(RSDescript,reterr) 
+  
+ Determine the parameters MNPP and MNEP
+  Setting MNPP =          337
+  Setting MNEP =          602
+ Allocate arrays dimensioned by MNPP and MNEP
+ from alloc_main2: 
+  
+ memory currently allocated =       939566  bytes
+ memory high water mark     =      1550056  bytes
+  
+  
+ Decomposition of grid begins
+ Decomposition Data
+ DOMAIN  RES_NODES  GHOST_NODES  TOT_NODES  ELEMENTS
+ ------  ---------  -----------  ---------  --------
+ GLOBAL                              3070       5780
+ PE0000       302         16          318        521
+ PE0001       297         38          335        546
+ PE0002       287         32          319        572
+ PE0003       269         55          324        576
+ PE0004       276         52          328        575
+ PE0005       278         59          337        590
+ PE0006       273         50          323        580
+ PE0007       273         32          305        545
+ PE0008       274         47          321        579
+ PE0009       269         45          314        560
+ PE0010       272         60          332        602
+ Decomposition successful
+ Writing Local UNIT 14 (Grid) File for each PE
+  
+ Boundary Node Decomposition Data
+ DOMAIN      NOPE    NETA    NBOU  NVEL    NWEIR
+ GLOBAL       1      75       1     285       0
+ PE0000       0       0       1      99       0
+ PE0001       0       0       1      88       0
+ PE0002       1      25       1      10       0
+ PE0003       0       0       1      17       0
+ PE0004       0       0       1      29       0
+ PE0005       0       0       1      25       0
+ PE0006       0       0       1      16       0
+ PE0007       1      17       1      17       0
+ PE0008       1      16       0       0       0
+ PE0009       1      23       0       0       0
+ PE0010       0       0       0       0       0
+ Writing Local UNIT 15 (Run Info) File for each PE
+  
+ Station Data
+ DOMAIN      NSTAE   NSTAV    NSTAC    NSTAM
+ GLOBAL       4       0       0       0
+ PE0000       3       0       0       0
+ PE0001       0       0       0       0
+ PE0002       0       0       0       0
+ PE0003       0       0       0       0
+ PE0004       0       0       0       0
+ PE0005       0       0       0       0
+ PE0006       0       0       0       0
+ PE0007       1       0       0       0
+ PE0008       0       0       0       0
+ PE0009       0       0       0       0
+ PE0010       0       0       0       0
+ Writing Message-Passing Info Files for each PE
+  
+ Communication Data
+ DOMAIN  COMM_PE  %(SURF/VOL)
+ ------  -------  -----------
+ PE0000        1      5.30
+ PE0001        3     12.79
+ PE0002        2     11.15
+ PE0003        4     20.45
+ PE0004        4     18.84
+ PE0005        5     21.22
+ PE0006        3     18.32
+ PE0007        2     11.72
+ PE0008        5     17.15
+ PE0009        4     16.73
+ PE0010        5     22.06
+  
+ memory currently allocated =       939566  bytes
+ memory high water mark     =      1550056  bytes
+  
+ Writing domain-decomposition file for post-processor
+ 
+ INFO: Finished pre-processing input files.
+  
+ memory currently allocated =       939566  bytes
+ memory high water mark     =      1550056  bytes
+  
