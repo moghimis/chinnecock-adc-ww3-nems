@@ -1,0 +1,199 @@
+ Shinnecock Inlet V20051108               ! UPTO 32 CHARACTER ALPHANUMERIC RUN D
+ ADCIRC V45.08                            ! UPTO 24 CHARACTER ALPANUMERIC RUN ID
+ 1                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPT
+ 1                                        ! NABOUT - ABREVIATED OUTPUT OPTION PA
+ 1                                        ! NSCREEN - OUTPUT TO UNIT 6 PARAMETER
+ 567                                    ! IHOT - HOT START OPTION PARAMETER     
+ 2                                        ! ICS - COORDINATE SYSTEM OPTION PARAM
+ 0                                        ! IM - MODEL RUN TYPE: 0=2DDI, 1=3DL(V
+ 2                                        ! NOLIBF - NONLINEAR BOTTOM FRICTION O
+ 2                                        ! NOLIFA - OPTION TO INCLUDE FINITE AM
+ 1                                        ! NOLICA - OPTION TO INCLUDE CONVECTIV
+ 1                                        ! NOLICAT - OPTION TO CONSIDER TIME DE
+ 0                                        ! NWP - VARIABLE BOTTOM FRICTION AND L
+ 1                                        ! NCOR - VARIABLE CORIOLIS IN SPACE OP
+ 1                                        ! NTIP - TIDAL POTENTIAL OPTION PARAME
+ 517                                     ! NWS - WIND STRESS AND BAROMETRIC PRES
+ 1                                        ! NRAMP - RAMP FUNCTION OPTION        
+ 9.81                                     ! G - ACCELERATION DUE TO GRAVITY - DE
+ 0.005                                    ! TAU0 - WEIGHTING FACTOR IN GWCE     
+ 2.0                                      ! DT - TIME STEP (IN SECONDS)         
+ 0.00                                     ! STATIM - STARTING SIMULATION TIME IN
+ 0.00                                     ! REFTIME - REFERENCE TIME (IN DAYS) F
+3600  3600   ! WTIMINC - meteorological data time increment, RSTIMINC wave forci
+ 27.0                           ! RNDAY - TOTAL LENGTH OF SIMULATION (IN DAYS)  
+ 7.0                                   ! DRAMP - DURATION OF RAMP FUNCTION (IN D
+ 0.35  0.30  0.35                         ! TIME WEIGHTING FACTORS FOR THE GWCE 
+ 0.05 12 12 0.02                          ! H0 - MINIMUM CUTOFF DEPTH           
+ -72.43 40.66                             ! SLAM0,SFEA0 - CENTER OF CPP PROJECTI
+ 0.0025  1.0  10.  0.33333                ! FFACTOR, HBREAK, FTHETA, FGAMMA - HY
+ 5.0                                      ! ESL - LATERAL EDDY VISCOSITY COEFFIC
+ 0.00010                                  ! CORI - CORIOLIS PARAMETER - IGNORED 
+ 5                                        ! NTIF - TOTAL NUMBER OF TIDAL POTENTI
+ M2                                                                             
+      0.24233400  0.000140518902509  0.693  1.021  98.846                       
+ N2                                                                             
+      0.04639800  0.000137879699487  0.693  1.021  285.394                      
+ S2                                                                             
+      0.11284100  0.000145444104333  0.693  1.000  360.000                      
+ K1                                                                             
+      0.14156500  0.000072921158358  0.736  0.947  32.493                       
+ O1                                                                             
+      0.10051400  0.000067597744151  0.695  0.913  70.357                       
+ 5                                        ! NBFR - TOTAL NUMBER OF FORCING FREQU
+ M2                                       ! BOUNTAG - ALPHA DESCRIPTOR OF FORCIN
+      0.000140518902509  1.021  98.846    ! CONST. FREQ. (Hz*2*pi), NODAL FACTOR
+ N2                                                                             
+      0.000137879699487  1.021  285.394                                         
+ S2                                                                             
+      0.000145444104333  1.000  360.000                                         
+ K1                                                                             
+      0.000072921158358  0.947  32.493                                          
+ O1                                                                             
+      0.000067597744151  0.913  70.357                                          
+ M2                                       ! AMPLITUDE AND PHASE (IN DEGREES) OF 
+   0.48662209  346.480                                                          
+   0.48770837  346.498                                                          
+   0.48874883  346.521                                                          
+   0.48984477  346.540                                                          
+   0.49103618  346.552                                                          
+   0.49228464  346.560                                                          
+   0.49364614  346.557                                                          
+   0.49494890  346.560                                                          
+   0.49634105  346.555                                                          
+   0.49782023  346.540                                                          
+   0.49914668  346.542                                                          
+   0.50062668  346.527                                                          
+   0.50221165  346.499                                                          
+   0.50381484  346.469                                                          
+   0.50536920  346.445                                                          
+   0.50701671  346.408                                                          
+   0.50872239  346.376                                                          
+   0.51077411  346.376                                                          
+   0.51286353  346.368                                                          
+   0.51495037  346.362                                                          
+   0.51706466  346.349                                                          
+   0.51921642  346.324                                                          
+   0.52137402  346.301                                                          
+ N2                                       ! AMPLITUDE AND PHASE (IN DEGREES) OF 
+   0.11974115  333.339                                                          
+   0.11982083  333.285                                                          
+   0.11989477  333.235                                                          
+   0.11998436  333.186                                                          
+   0.12009836  333.139                                                          
+   0.12022855  333.092                                                          
+   0.12038777  333.046                                                          
+   0.12053645  333.002                                                          
+   0.12070860  332.959                                                          
+   0.12090393  332.916                                                          
+   0.12106619  332.877                                                          
+   0.12126608  332.836                                                          
+   0.12149319  332.794                                                          
+   0.12172581  332.753                                                          
+   0.12194731  332.713                                                          
+   0.12219247  332.671                                                          
+   0.12245593  332.633                                                          
+   0.12282907  332.617                                                          
+   0.12321209  332.599                                                          
+   0.12359376  332.580                                                          
+   0.12398278  332.560                                                          
+   0.12438226  332.536                                                          
+   0.12478186  332.512                                                          
+ S2                                       ! AMPLITUDE AND PHASE (IN DEGREES) OF 
+   0.07426494  16.344                                                           
+   0.07431061  16.286                                                           
+   0.07435183  16.232                                                           
+   0.07440339  16.179                                                           
+   0.07447145  16.124                                                           
+   0.07455039  16.070                                                           
+   0.07464935  16.014                                                           
+   0.07474051  15.961                                                           
+   0.07484795  15.907                                                           
+   0.07497170  15.851                                                           
+   0.07507146  15.803                                                           
+   0.07519796  15.749                                                           
+   0.07534420  15.692                                                           
+   0.07549445  15.634                                                           
+   0.07563634  15.579                                                           
+   0.07579593  15.519                                                           
+   0.07596790  15.464                                                           
+   0.07621370  15.437                                                           
+   0.07646732  15.407                                                           
+   0.07671981  15.377                                                           
+   0.07697827  15.344                                                           
+   0.07724542  15.305                                                           
+   0.07751249  15.267                                                           
+ K1                                       ! AMPLITUDE AND PHASE (IN DEGREES) OF 
+   0.07271026  173.746                                                          
+   0.07284123  173.662                                                          
+   0.07297846  173.583                                                          
+   0.07310208  173.506                                                          
+   0.07320297  173.430                                                          
+   0.07328832  173.354                                                          
+   0.07334332  173.279                                                          
+   0.07341098  173.208                                                          
+   0.07345308  173.136                                                          
+   0.07346785  173.063                                                          
+   0.07352301  172.998                                                          
+   0.07353387  172.929                                                          
+   0.07350852  172.856                                                          
+   0.07347549  172.783                                                          
+   0.07345914  172.713                                                          
+   0.07340758  172.638                                                          
+   0.07336405  172.559                                                          
+   0.07337705  172.456                                                          
+   0.07337218  172.349                                                          
+   0.07337263  172.242                                                          
+   0.07335901  172.133                                                          
+   0.07332323  172.020                                                          
+   0.07329304  171.906                                                          
+ O1                                       ! AMPLITUDE AND PHASE (IN DEGREES) OF 
+   0.05641014  183.777                                                          
+   0.05640620  183.711                                                          
+   0.05640698  183.643                                                          
+   0.05640358  183.584                                                          
+   0.05639198  183.537                                                          
+   0.05637532  183.499                                                          
+   0.05634724  183.477                                                          
+   0.05632585  183.450                                                          
+   0.05629491  183.437                                                          
+   0.05625361  183.438                                                          
+   0.05623057  183.420                                                          
+   0.05618952  183.423                                                          
+   0.05613395  183.445                                                          
+   0.05607554  183.470                                                          
+   0.05602452  183.488                                                          
+   0.05595883  183.523                                                          
+   0.05589093  183.553                                                          
+   0.05581191  183.557                                                          
+   0.05572559  183.568                                                          
+   0.05564120  183.577                                                          
+   0.05555131  183.593                                                          
+   0.05545308  183.618                                                          
+   0.05535667  183.642                                                          
+ 90.0                                     ! ANGINN : INNER ANGLE THRESHOLD      
+          -5  0.000000000000000E+000   366.000000000000               30
+       0                   ! TOTAL NUMBER OF ELEVATION RECORDING STATIONS       
+           0  0.000000000000000E+000  0.000000000000000E+000           0
+       0                                         ! NSTAV - TOTAL NUMBER OF VELOC
+           0  0.000000000000000E+000  0.000000000000000E+000           0
+       0                                         ! NSTAM - TOTAL NUMBER OF METEO
+          -5  0.000000000000000E+000   1000.00000000000              100
+          -5  0.000000000000000E+000   1000.00000000000              100
+          -5  0.000000000000000E+000   1000.00000000000              100
+ 0                                        ! NHARF - NUMBER OF FREQENCIES IN HARM
+ 0.0 0.0 0 0.0                            ! THAS,THAF,NHAINC,FMV - HARMONIC ANAL
+ 0 0 0 0                                  ! NHASE,NHASV,NHAGE,NHAGV - CONTROL HA
+ 5 1166400.0                           ! NHSTAR,NHSINC - HOT START FILE GENERATI
+ 1 0 1.0E-10 25                           ! ITITER, ISLDIA, CONVCR, ITMAX - ALGE
+ adcirc.org netcdf examples project
+ UNC CH Institute of Marine Sciences
+ adcirc.org examples page
+ based on Shinnecock Inlet but with netcdf output
+ http://adcirc.org/home/documentation/example-problems/shinnecock-inlet-ny-with-
+ t
+ netcdf4 format was used (fully compatible with hdf5)
+ adcirc.org
+ CF
+ moghimis@gmail.com
+ 2008-08-23 00:00:00 UTC
