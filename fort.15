@@ -3,7 +3,7 @@
  1                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
  1                                        ! NABOUT - ABREVIATED OUTPUT OPTION PARAMETER
  1                                        ! NSCREEN - OUTPUT TO UNIT 6 PARAMETER
- 567                                      ! IHOT - HOT START OPTION PARAMETER
+ 567                                    ! IHOT - HOT START OPTION PARAMETER
  2                                        ! ICS - COORDINATE SYSTEM OPTION PARAMETER
  0                                        ! IM - MODEL RUN TYPE: 0=2DDI, 1=3DL(VS), 2=3DL(DSS)
  2                                        ! NOLIBF - NONLINEAR BOTTOM FRICTION OPTION
@@ -13,7 +13,7 @@
  0                                        ! NWP - VARIABLE BOTTOM FRICTION AND LATERAL VISCOSITY OPTION PARAMETER
  1                                        ! NCOR - VARIABLE CORIOLIS IN SPACE OPTION PARAMETER
  1                                        ! NTIP - TIDAL POTENTIAL OPTION PARAMETER
- 517                                      ! NWS - WIND STRESS AND BAROMETRIC PRESSURE OPTION PARAMETER
+ 517                                     ! NWS - WIND STRESS AND BAROMETRIC PRESSURE OPTION PARAMETER
  1                                        ! NRAMP - RAMP FUNCTION OPTION
  9.81                                     ! G - ACCELERATION DUE TO GRAVITY - DETERMINES UNITS
  0.005                                    ! TAU0 - WEIGHTING FACTOR IN GWCE
@@ -21,8 +21,8 @@
  0.00                                     ! STATIM - STARTING SIMULATION TIME IN DAYS
  0.00                                     ! REFTIME - REFERENCE TIME (IN DAYS) FOR NODAL FACTORS AND EQUILIBRIUM ARGS
 3600  3600   ! WTIMINC - meteorological data time increment, RSTIMINC wave forcing increment
- 1.5                                      ! RNDAY - TOTAL LENGTH OF SIMULATION (IN DAYS)
- 1.0                                      ! DRAMP - DURATION OF RAMP FUNCTION (IN DAYS)
+ 27.0                           ! RNDAY - TOTAL LENGTH OF SIMULATION (IN DAYS)
+ 7.0                                   ! DRAMP - DURATION OF RAMP FUNCTION (IN DAYS)
  0.35  0.30  0.35                         ! TIME WEIGHTING FACTORS FOR THE GWCE EQUATION
  0.05 12 12 0.02                          ! H0 - MINIMUM CUTOFF DEPTH
  -72.43 40.66                             ! SLAM0,SFEA0 - CENTER OF CPP PROJECTION (NOT USED IF ICS=1, NTIP=0, NCOR=0)

@@ -44,7 +44,7 @@ INFO: The time varying weir control namelist was found.
   REFTIM  0.000000000000000E+000
   WTIMINC   3600.00000000000     
  NDAY,DRAMP    27.0000000000000     
- NDAY,DRAMP    5.00000000000000     
+ NDAY,DRAMP    7.00000000000000     
   CORI  1.000000000000000E-004
  NTIF            5
  NOUTE, TOUTSE.           -5
@@ -108,7 +108,7 @@ INFO: The time varying weir control namelist was found.
  3600  3600   ! WTIMINC - meteorological data time increment, RSTIMINC wave forc
  i
   RNDAY   27.0000000000000     
- DRAMP    5.00000000000000     
+ DRAMP    7.00000000000000     
   CORI  1.000000000000000E-004
   NTIF           5
  NOUTE           -5

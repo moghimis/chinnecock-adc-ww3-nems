@@ -1,2 +1,4 @@
-atm_dir: .
-atm_nam: wind_atm_fin_ch_time_vec.nc
+ wav_dir: /scratch4/COASTAL/coastal/noscrub/Saeed.Moghimi/stmp1-chi/a70_CHI_ATM_WAV2OCN_v2.0/rt_20180531_h13_m28_s15r142/inp_wavdata 
+ wav_nam: ww3.Constant.20151214_sxy_ike_date.nc 
+ atm_dir: /scratch4/COASTAL/coastal/noscrub/Saeed.Moghimi/stmp1-chi/a70_CHI_ATM_WAV2OCN_v2.0/rt_20180531_h13_m28_s15r142/inp_atmesh 
+ atm_nam: wind_atm_fin_ch_time_vec.nc 
